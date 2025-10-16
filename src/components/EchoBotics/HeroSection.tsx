@@ -353,10 +353,10 @@
 'use client';
 
 import React from 'react';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 const HeroSection = () => {
-    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+    const [isMenuOpen] = React.useState(false);
 
     const partners = ['VISA', 'Ness', 'SafetyWing', 'unqork', 'stitch', 'XP', 'Vital'];
 
@@ -428,7 +428,7 @@ const HeroSection = () => {
                             </h1>
 
                             <p className="text-base sm:text-lg text-gray-300 max-w-2xl mb-8">
-                                EchoBotics is redefining human-AI interaction with real-time voice, chat, and lip-sync technology. Our AI doesn't just respond. It listens, talks, and connects like a real assistant.
+                                EchoBotics is redefining human-AI interaction with real-time voice, chat, and lip-sync technology. Our AI doesn&apos;t just respond. It listens, talks, and connects like a real assistant.
                             </p>
 
                             <button className="bg-orange-600 hover:bg-orange-700 px-6 py-3 rounded-lg text-lg font-semibold flex items-center gap-3 w-fit transition group border border-orange-500/50">
