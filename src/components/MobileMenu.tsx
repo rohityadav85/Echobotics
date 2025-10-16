@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 export default function MobileMenu() {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen] = useState(false);
 
     if (!isOpen) return null;
 

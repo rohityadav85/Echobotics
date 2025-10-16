@@ -10,6 +10,8 @@ import Footer from '@/components/EchoBotics/Footer';
 const Page = () => {
   return (
     <div className="bg-black text-white font-sans">
+
+
       <Navbar />
       <HeroSection />
       <FeaturesSection />

@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import MobileMenu from './MobileMenu';
+
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
